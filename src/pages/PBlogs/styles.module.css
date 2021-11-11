@@ -1,0 +1,19 @@
+.bgSky{
+    background-color: #110E19;
+    border: 1px solid #110E19;
+    --color-blue: #2b54d8;
+    --color-purple: #2a0545;
+}
+
+.slide{
+    height: 60vh;
+    width: 60vw;
+    width: 100vw;
+    object-fit: cover;
+}
+
+@media(max-width: 425px){
+    .slide{
+        width: 300px;
+    }
+}
